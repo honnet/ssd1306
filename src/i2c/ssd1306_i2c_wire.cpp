@@ -94,6 +94,11 @@ void ssd1306_i2cInit_Wire(uint8_t sa)
     ssd1306_dataStart = ssd1306_i2cDataStart;
 }
 
+void ssd1306_i2cSetAddr_Wire(uint8_t sa)
+{
+    if (sa) s_sa = sa;
+}
+
 #endif
 
 

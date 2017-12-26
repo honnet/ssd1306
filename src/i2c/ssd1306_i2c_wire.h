@@ -58,6 +58,12 @@ void ssd1306_i2cConfigure_Wire(int8_t scl, int8_t sda);
 void ssd1306_i2cInit_Wire(uint8_t sa);
 
 /**
+ * Updates I2C address.
+ * @param sa  - i2c address of lcd display. Use 0 to leave default
+ */
+void ssd1306_i2cSetAddr_Wire(uint8_t sa);
+
+/**
  * Starts i2c communication with lcd display via Wire library.
  */
 void ssd1306_i2cStart_Wire();
