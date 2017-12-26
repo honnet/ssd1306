@@ -39,7 +39,7 @@ public:
     static const uint8_t SP_ERR_NO_SPACE = 0xFF;
 
     /// Defines max sprites number supported by SpritePool
-    static const uint8_t MAX_SPRITES = 10;
+    static const uint8_t MAX_SPRITES = 32;
 
     /**
      * Creates empty SpritePool object.
